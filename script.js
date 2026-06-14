@@ -9,6 +9,8 @@ reset.addEventListener("click",()=>{
      comp_score=0;
      userpara.innerText=user_score;
      comppara.innerText=comp_score;
+     msg.innerText="Play your Move";
+     msg.style.backgroundColor="#081b31";
    })
  let userpara=document.querySelector("#user-score");
  let comppara=document.querySelector("#comp-score");
